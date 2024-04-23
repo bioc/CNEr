@@ -22,7 +22,7 @@ importMethodsFrom(XVector, subseq)
 importMethodsFrom(DBI, dbGetQuery)
 importMethodsFrom(RSQLite, dbConnect, dbDisconnect, dbWriteTable)
 importMethodsFrom(methods, initialize, show)
-importMethodsFrom(Biostrings, compareStrings)
+importMethodsFrom(pwalign, compareStrings)
 importMethodsFrom(S4Vectors, Rle, isConstant, runmean, elementNROWS, first,
                   showAsCell, extractROWS, mcols, "mcols<-", split, runValue,
                   as.factor, "%in%", second, "first<-", "second<-",

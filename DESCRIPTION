@@ -1,12 +1,13 @@
 Package: CNEr 
-Version: 1.39.0
-Date: 2022-10-23
+Version: 1.39.1
+Date: 2024-04-23
 Title: CNE Detection and Visualization
 Description: Large-scale identification and advanced visualization 
              of sets of conserved noncoding elements.
 Author: Ge Tan <ge_tan@live.com>
 Maintainer: Ge Tan <ge_tan@live.com>
 Imports: Biostrings (>= 2.33.4),
+         pwalign,
          DBI (>= 0.7),
          RSQLite (>= 0.11.4),
          GenomeInfoDb (>= 1.1.3),
