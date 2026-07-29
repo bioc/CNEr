@@ -33,9 +33,9 @@ importMethodsFrom(GenomicAlignments, last)
 ### -----------------------------------------------------------------
 ### Import ordinary functions, variables in other packages
 ###
-importFrom(GenomeInfoDb, Seqinfo)
+importFrom(Seqinfo, Seqinfo)
 importFrom(GenomicRanges, GRanges)
-importFrom(GenomicAlignments, explodeCigarOps, CIGAR_OPS, explodeCigarOpLengths)
+importFrom(cigarillo, CIGAR_OPS, explode_cigar_ops, explode_cigar_oplens)
 importFrom(Biostrings, DNAStringSet, DNA_BASES, fasta.seqlengths,
            readBStringSet)
 importFrom(RSQLite, SQLite)

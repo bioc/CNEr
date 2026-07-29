@@ -40,8 +40,8 @@ seqToAlignment <- function(DNAStringSet){
 ### rever the cigar string. i.e. 20M15I10D will be reversed to 10D15I20M.
 ### EXPORTED!
 reverseCigar <- function(cigar, ops=CIGAR_OPS){
-  cigarOps <- lapply(explodeCigarOps(cigar, ops=ops), rev)
-  cigarOpsLengths <- lapply(explodeCigarOpLengths(cigar, ops=ops), rev)
+  cigarOps <- lapply(explode_cigar_ops(cigar, ops=ops), rev)
+  cigarOpsLengths <- lapply(explode_cigar_oplens(cigar, ops=ops), rev)
   cigar <- mapply(paste0, cigarOpsLengths, cigarOps, collapse="")
   return(cigar)
 }

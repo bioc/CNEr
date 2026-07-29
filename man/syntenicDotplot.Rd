@@ -60,7 +60,6 @@
   For highly fragmented assemblies, the synteny is invisible on the dotplot.
 }
 \examples{
-  library(GenomeInfoDb)
   library(BSgenome.Ggallus.UCSC.galGal3)
   library(BSgenome.Hsapiens.UCSC.hg19)
   ## dotplot for Axt object

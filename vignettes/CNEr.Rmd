@@ -140,7 +140,6 @@ axt <- readAxt(fn,
                qAssemblyFn=file.path(system.file("extdata",
                                      package="BSgenome.Ggallus.UCSC.galGal3"),
                                      "single_sequences.2bit"))
-library(GenomeInfoDb)
 syntenicDotplot(axt, firstChrs=c("chr4"), secondChrs="chr4", type="dot")
 ```
 

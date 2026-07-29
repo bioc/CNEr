@@ -30,7 +30,7 @@
 }
 
 \seealso{
-  \code{\link[GenomicAlignments]{cigar-utils}}
+  \code{\link[cigarillo]{explode_cigar_ops}}
 }
 
 \examples{
